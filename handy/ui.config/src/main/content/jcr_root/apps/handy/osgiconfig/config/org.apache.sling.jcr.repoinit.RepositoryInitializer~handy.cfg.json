@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/handy",
+        "create path (nt:unstructured) /content/dam/handy/jcr:content",
+        "set properties on /content/dam/handy/jcr:content\n  set cq:conf{String} to /conf/handy\n  set jcr:title{String} to \"Handytool\"\nend"
+    ]
+}

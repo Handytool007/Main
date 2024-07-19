@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/handy/clientlibs"/>
+    <filter root="/apps/handy/components"/>
+    <filter root="/apps/handy/i18n"/>
+</workspaceFilter>

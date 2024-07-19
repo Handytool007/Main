@@ -1,0 +1,28 @@
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html">
+ <sly data-sly-call="${clientlib.css @ categories='clientlib-myComponent'}"/>
+</sly>
+
+
+
+<div>
+
+<img class="profilepic" src="${properties.picReference}"/>
+
+
+
+<h3 class="firstname">${properties.text2}</h3>
+
+
+
+<h3 class="secondname">${properties.text3}</h3>
+
+
+</div>
+
+<!--
+<div data-sly-use.profiles="com.adobe.aem.handy.core.models.support.Profile"></div>
+<div>First Name : ${profiles.firstName} </div>
+
+<div>Second Name : ${profiles.secondName} </div>-->
+

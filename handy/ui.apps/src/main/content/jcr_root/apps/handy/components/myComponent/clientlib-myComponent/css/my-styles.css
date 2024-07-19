@@ -1,0 +1,16 @@
+img{
+    width:auto;
+    height:auto;
+}
+
+.profilepic{
+	border-style: solid;
+    border-color:red;
+}
+    .firstname{
+            color:blue;
+        }
+
+        .secondname{
+        color:green;
+    }
